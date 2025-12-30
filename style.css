@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1877f2;
+}
+
+#dashboard {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.log-entry {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.log-entry:last-child {
+  border-bottom: none;
+}
+
+.log-field {
+  margin-bottom: 5px;
+}
+
+.log-field strong {
+  color: #1877f2;
+}
